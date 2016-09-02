@@ -1,0 +1,45 @@
+{
+  "name": "react-redux-chart",
+  "version": "0.0.1",
+  "description": "Charts for react redux applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisChatzi/react-redux-chart.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "chart",
+    "graph"
+  ],
+  "author": "chrisChatzi",
+  "license": "ISC",
+    "dependencies" : {
+    "express" : "*"
+  },
+  "devDependencies": {
+    "browserify" : "*",
+    "babelify" : "*",
+
+    "grunt" : "*",
+    "grunt-babel" : "*",
+    "grunt-browserify" : "*",
+    "grunt-sass" : "*",
+
+    "babel-preset-es2015" : "*",
+    "babel-preset-react" : "*",
+
+    "redux" : "*",
+    "redux-thunk" : "*",
+    "react" : "*",
+    "react-redux" : "*",
+    "react-router" : "*",
+    "react-dom" : "*",
+    "jquery" : "*",
+    "ajax-query" : "*"
+  }
+}
