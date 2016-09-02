@@ -1,4 +1,4 @@
-react-redux-chart
+##**react-redux-chart**
 
 Simple chart for react-redux developing.
 
