@@ -2,6 +2,8 @@
 
 Simple chart for react-redux developing.
 
+![alt text](https://github.com/chrisChatzi/react-redux-chart/blob/master/example.png "Example of chart")
+
 Just call the component:
 
 ```javascript
