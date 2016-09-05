@@ -10,6 +10,8 @@ Simple chart for react-redux developing.
 
 and then open index.html from ./example/dist
 
+####**npm usage**
+
 Just call the component:
 
 ```javascript
