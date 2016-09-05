@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    "dist/index.js": "src/index.js"
+                    "example/dist/index.js": "example/src/index.js"
                 }
             }
         },
@@ -16,14 +16,14 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    './dist/css/style.css': './src/css/style.scss'
+                    './example/dist/css/style.css': './example/src/css/style.scss'
                 }
             }
         },
         browserify: {
           dist: {
             files: {
-              './dist/bundle.js': ['./src/index.js']
+              './example/dist/bundle.js': ['./example/src/index.js']
             },
             options: {
                 transform: [

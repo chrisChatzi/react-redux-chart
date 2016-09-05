@@ -8,7 +8,10 @@ Simple chart for react-redux developing.
 	npm run startServer
 ```
 
-and then open index.html from ./example/dist
+and then open
+```javascript
+	localhost:2121
+```
 
 ####**npm usage**
 
@@ -62,6 +65,22 @@ let data = {
 	values : {
 		'dataset1' : [1, 2, 2],
 		'dataset2' : [2, 5, -5]
+	},
+	//chart dimensions
+	chartDimensions : {
+		//all values are in percentage
+		//start of x-axis
+		xAxisMinimum : 10,
+		//end of x-axis
+		xAxisMaximum : 95,
+		//start of y-axis
+		yAxisMinimum : 5,
+		//end of x-axis
+		yAxisMaximum : 90,
+		//gap of text of x-axis from x-axis line
+		xAxisTextGap : 2,
+		//gap of text of y-axis from y-axis line
+		yAxisTextGap : 3
 	},
 	//chart style
 	chartStyle : {

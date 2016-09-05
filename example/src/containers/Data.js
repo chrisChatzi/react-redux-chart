@@ -5,7 +5,7 @@ const mapStateToProps = (state, ownProps) => {
 	let data = {
 		// element : 'data-box',
 		title : "test",					//title
-		xAxisValues : ["m1", "m2", "m3", "m4", "m5", "m6", "m7"],	//x-axis labels*
+		xAxisValues : ["m1", "m2", "m3", "m4", "m5", "m6", "m7","m1", "m2", "m3", "m4", "m5", "m6", "m7","m1", "m2", "m3", "m4", "m5", "m6", "m7"],	//x-axis labels*
 		yAxisPoints : 5,				//number of y-axis steps
 		showGrid : true,				//show grid (hor&vert)
 		showPoints : true,				//show circle points
@@ -14,10 +14,19 @@ const mapStateToProps = (state, ownProps) => {
 		showTitle : true,				//show chart title
 		showInfo : true,				//show chart info
 		showHover : true,				//hover on/off
+		chartDimensions : {				//chart dimensions
+			xAxisMinimum : 10,
+			xAxisMaximum : 95,
+			yAxisMinimum : 5,
+			yAxisMaximum : 90,
+			xAxisTextGap : 2,
+			yAxisTextGap : 3
+		},
 		allowFilters : true,			//allow filtering of lines
 		values : {						//values of chart, every object is a line*
-			key1 : [1, 2, 2 ,0, 3, 4, 1],
-			key2 : [2, 5, 8, -2, -5, 4 ,-5]
+			key1 : [1, 2, 2 ,0, 3, 4, 1,1, 2, 2 ,0, 3, 4, 1,1, 2, 2 ,0, 3, 4, 1],
+			key2 : [2, 5, 8, -2, -5, 4 ,-5,2, 5, 8, -2, -5, 4 ,-5,2, 5, 8, -2, -5, 4 ,-5],
+			key3 : [4, 5, 8, -2, -5, 4 ,-5,4, 5, 8, -2, 4, 4 ,-5,2, 5, 8, -2, -5, 4 ,-5]
 		},
 		chartStyle : {					//chart style
 			gridColor : "#ccc",
