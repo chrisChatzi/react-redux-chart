@@ -2,6 +2,14 @@ Simple chart for react-redux developing.
 
 ![alt text](https://github.com/chrisChatzi/react-redux-chart/blob/master/example.png "Example of chart")
 
+####**Run example**
+
+```javascript
+	npm run startServer
+```
+
+and then open index.html from ./example/dist
+
 Just call the component:
 
 ```javascript

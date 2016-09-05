@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import Chart from '../../lib/ChartLogic'
+import Chart from '../../../lib/ChartLogic'
 
 const Data = ( { data } ) => (
 	<div className="data">
